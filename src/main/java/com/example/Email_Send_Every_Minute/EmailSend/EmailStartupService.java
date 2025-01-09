@@ -15,7 +15,7 @@ public class EmailStartupService {
     @Scheduled(fixedRate = 60000)
     @EventListener(ApplicationReadyEvent.class)
     public void sendEmailOnStartup() {
-        String to = "jenishpvtltd1@example.com";
+        String to = "";
         String subject = "One-Time Email";
         String text = "This is a one-time email sent on application startup.";
         emailService.sendEmail(to, subject, text);
