@@ -13,7 +13,6 @@ public class EmailStartupService {
     private EmailServ emailService;
 
     @Scheduled(fixedRate = 60000)
-    @EventListener(ApplicationReadyEvent.class)
     public void sendEmailOnStartup() {
         String to = ""; //The recipient's email address
         String subject = "One-Time Email";
