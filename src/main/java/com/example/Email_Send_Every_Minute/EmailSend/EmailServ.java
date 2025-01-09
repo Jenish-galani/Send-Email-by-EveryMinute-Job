@@ -16,7 +16,7 @@ public class EmailServ {
             mail.setTo(to);
             mail.setSubject(subject);
             mail.setText(body);
-            mail.setFrom("jenishgalani4543@gmail.com");
+            mail.setFrom("");
             javaMailSender.send(mail);
         }catch (Exception e) {
             e.printStackTrace();
