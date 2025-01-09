@@ -16,7 +16,7 @@ public class EmailServ {
             mail.setTo(to);
             mail.setSubject(subject);
             mail.setText(body);
-            mail.setFrom(""); // Setting the email sender
+            mail.setFrom(""); // The email address from which the email will be sent
             javaMailSender.send(mail);
         }catch (Exception e) {
             e.printStackTrace();
