@@ -31,3 +31,7 @@
 - spring.mail.properties.mail.smtp.auth=true
 - spring.mail.properties.mail.smtp.starttls.enable=true
 
+# ✅ Testing:
+- Run your application 🎯.
+- Verify that emails are sent every minute ⏳ to the recipient.
+
