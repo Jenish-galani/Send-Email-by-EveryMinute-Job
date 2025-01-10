@@ -14,6 +14,18 @@
 - Database: MySQL (Optional) 🗄️
 - IDE: IntelliJ IDEA 💡
 
+# Project Structure 📂
+# 📁 SpringBootEmailScheduler
+- ├── 📁 src
+- │   ├── 📁 main
+- │   │   ├── 📁 java
+- │   │   │   └── 📁 com.example.emailscheduler
+- │   │   │       ├── 📄 EmailServ.java
+- │   │   │       ├── 📄 EmailStartupService.java
+- │   │   ├── 📁 resources
+- │   │   │   ├── 📄 application.properties
+- ├── 📄 pom.xml
+
 
 # 🌟 Key Steps:
 # 📦 Add Dependencies:
