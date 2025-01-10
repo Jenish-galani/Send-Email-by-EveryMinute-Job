@@ -7,18 +7,20 @@
 - Integrates with an email service (e.g., Gmail SMTP ✉️).
 - Supports rich email content (plain text, HTML, attachments 📎).
 
-# Technologies Used:
+# 🛠️ Technology Stack
+- Backend: Spring Boot 🖥️
+- Language: Java ☕
+- Email Protocol: SMTP ✉️
+- Database: MySQL (Optional) 🗄️
+- IDE: IntelliJ IDEA 💡
 
-- 🖥️ Spring Boot
-- 💾 MySQL
-- 📜 JavaMail API
-- ⚙️ Spring Task Scheduler
 
 # 🌟 Key Steps:
 # 📦 Add Dependencies:
 
-- Include spring-boot-starter-mail in your pom.xml for email support.
-- Use spring-boot-starter for core functionality.
+- Add the following dependencies in pom.xml:
+- Spring Boot Starter Mail 📧
+- Spring Boot Starter Scheduling 🕒
 
 # ⚙️ Configure Email Settings:
 
@@ -30,6 +32,12 @@
 - spring.mail.password=your-password
 - spring.mail.properties.mail.smtp.auth=true
 - spring.mail.properties.mail.smtp.starttls.enable=true
+
+# ⚙️ How It Works
+- 🔧 Setup SMTP: Configure SMTP server credentials in application.properties.
+- 🕒 Enable Scheduling: Add @EnableScheduling to your main class.
+- 📬 Schedule Email Jobs: Use @Scheduled with a cron expression for minute-based execution.
+- 📝 Customize Content: Define the email subject, body, and recipients in your service layer.
 
 # ✅ Testing:
 - Run your application 🎯.
