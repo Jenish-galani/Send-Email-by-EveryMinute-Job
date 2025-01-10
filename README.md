@@ -8,3 +8,10 @@
 - Uses Spring Boot 🐾 and Java ☕.
 - Integrates with an email service (e.g., Gmail SMTP ✉️).
 - Supports rich email content (plain text, HTML, attachments 📎).
+
+# Technologies Used:
+
+- 🖥️ Spring Boot
+- 💾 MySQL
+- 📜 JavaMail API
+- ⚙️ Spring Task Scheduler
